@@ -22,6 +22,7 @@ int main(){
     string message = "";
     cout << "End a message: " << endl;
     getline(cin, message);
+    cout << "Your message has been saved" << endl;
 
 
     return 0;
