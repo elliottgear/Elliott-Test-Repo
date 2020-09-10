@@ -12,6 +12,12 @@ int main(){
         cout << "The number is less than 10" << endl;
         ++number;
     }
+    return 0;
+    int number = 1;
+    while (number < 10){
+        cout << "The number is less than 10" << endl;
+        ++number;
+    }
 
     string message = "";
     cout << "End a message: " << endl;
