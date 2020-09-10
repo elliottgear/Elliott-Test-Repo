@@ -3,6 +3,7 @@
 //
 
 #include <iostream>
+#include <string>
 using namespace std;
 int main(){
     cout << "This is an example program" << endl;
@@ -11,5 +12,11 @@ int main(){
         cout << "The number is less than 10" << endl;
         ++number;
     }
+
+    string message = "";
+    cout << "End a message: " << endl;
+    getline(cin, message);
+
+
     return 0;
 }
